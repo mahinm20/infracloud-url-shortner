@@ -15,6 +15,14 @@ If you go to http://127.0.0.1:8000/api/create, you can create a new short link f
 
 Once create, go to the shortened URL and it will redirect you to the original url
 
+If you want to test the API using curl command use the below format
+
+curl -X POST http://127.0.0.1:8000/api/create/ --form original_url=any url/
+
+Eg :-curl -X POST http://127.0.0.1:8000/api/create/ --form original_url=https://www.youtube.com/
+
+
+
 
 
 
